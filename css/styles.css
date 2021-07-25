@@ -1,0 +1,182 @@
+:root {
+  --title-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-text-color: #ffffff;
+  --accent-backgraund: #f5f4fa;
+  --hero-button-hover: #188ce8;
+  --dark-background-collor: #2f303a;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Логтип */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--title-color);
+}
+.logo-color {
+  color: var(--accent-color);
+}
+
+/* Навигация сайта*/
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  text-decoration: none;
+}
+.current-link {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.contacts-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* Заголовки */
+.section-title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+/* Секция герой */
+.hero-section {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: var(--dark-background-collor);
+}
+
+.hero-title {
+  color: var(--accent-text-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  cursor: pointer;
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-button-hover);
+}
+
+/* Наша команда */
+.team-section {
+  background-color: var(--accent-backgraund);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Наши преимущества */
+
+.features-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+/* Примеры работ */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  color: var(--title-color);
+  background-color: var(--accent-backgraund);
+}
+
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--accent-text-color);
+  background-color: var(--accent-color);
+}
+
+.work-exemples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-color);
+}
+.work-exemples-link {
+  color: inherit;
+  text-decoration: none;
+}
+.work-exemples-text {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--dark-background-collor);
+}
+
+.footer .logo,
+.address-list {
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+
+.contact-item {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
