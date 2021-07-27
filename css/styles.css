@@ -328,8 +328,16 @@ margin-right: 8px;;
 .footer {
   background-color: var(--dark-background-collor);
 }
+.footer-logo{
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--accent-text-color);
+}
 
-.footer-logo,
 .address-list {
   text-decoration: none;
   color: var(--accent-text-color);
