@@ -40,7 +40,7 @@ p{
 .container{
   width: 1200px;
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px 8px; /* для читаемости при масштабировании */
   align-content: center;
 }
 .section{
