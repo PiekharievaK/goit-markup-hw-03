@@ -169,6 +169,11 @@ p{
 }
 .team-list img{
   display: block;
+  width: 100%;
+  height: auto;
+}
+.team-list .item{
+    width: calc((100% - 90px) / 4);
 }
 .team-list .item:not(:last-child){
 margin-right: 30px;
@@ -228,12 +233,23 @@ margin-right: 30px;
 }
 
 /* Чем мы занимаемся */
+.work-section{
+  padding-top: 0px;
+}
 
 .work-section-list {
   display: flex;
 }
+.work-section-list .item{
+    width: calc((100% - 60px) / 3)
+}
 .work-section-list .item:not(:last-child){
   margin-right: 30px;
+}
+.work-section-list img{
+  display: block;
+   width: 100%;
+  height: auto;
 }
 
 /* Кнопка фильтр */
@@ -272,6 +288,7 @@ margin-right: 8px;;
 }
 
 /* Примеры работ */
+
 .work-exemples-list{
   display: flex;
   flex-wrap: wrap;
