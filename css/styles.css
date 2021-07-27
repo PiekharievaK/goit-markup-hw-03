@@ -40,6 +40,7 @@ p{
 .container{
   width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
   align-content: center;
 }
 .section{
@@ -341,7 +342,8 @@ margin-right: 8px;;
 
 /* Футер */
 .footer-container{
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer {
